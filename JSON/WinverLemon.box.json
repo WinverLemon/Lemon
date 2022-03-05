@@ -179,6 +179,14 @@
    "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/ksjsb.jpg", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/ksjsb.jpg"],
    "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/ksjsb.js"
   },
+  {
+   "id": "lmz",
+   "name": "狸猫赚",
+   "keys": ["lmzurl", "lmzhd", "lmzurl2", "lmzhd2", "lmzurl3", "lmzhd3"],
+   "repo": "https://github.com/WinverLemon/Lemon/blob/main/JS/lmz.js",
+   "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/lmz.png", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/lmz.png"],
+   "script": "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JS/lmz.js"
+  },
   { 
    "id": "zq_speed_box",
    "name": "中青看点极速版-宝箱",
