@@ -12,7 +12,7 @@ cron 8 7 * * * yml_javascript/sytt.js
 
 注意事项 ： 一定要仔细阅读一下内容
 =============青龙变量格式=============
-export yml_sytt_data='手机号&密码'
+export syttPhone='手机号&密码'
  多账号使用 @ 分割；
 
 =============青龙变量实例=============
@@ -28,7 +28,7 @@ const axios = require("axios");
 const qs = require("qs");
 const $ = new Env('十堰头条');
 const notify = $.isNode() ? require('./sendNotify') : '';
-let app_yml_sytt_data='';
+let app_syttPhone='';
 let user = '';
 let pwd = '';
 let uid;
@@ -37,19 +37,19 @@ let uid;
 !(async () => {
     if ($.isNode()) {
         //$.isNode()环境执行部分  青龙执行
-        if (!process.env.yml_sytt_data) {
-            console.log(`\n【${$.name}】：未填写相应变量 yml_sytt_data`);
+        if (!process.env.syttPhone) {
+            console.log(`\n【${$.name}】：未填写相应变量 syttPhone`);
             return;
         }
-        if (process.env.yml_sytt_data && process.env.yml_sytt_data.indexOf('@') > -1) {
-            app_yml_sytt_data = process.env.yml_sytt_data.split('@');
+        if (process.env.syttPhone && process.env.syttPhone.indexOf('@') > -1) {
+            app_syttPhone = process.env.syttPhone.split('@');
         }else {
-            app_yml_sytt_data = process.env.yml_sytt_data.split();
+            app_syttPhone = process.env.syttPhone.split();
         }
     }
 
-    console.log(`-------- 共 ${app_yml_sytt_data.length} 个账号 --------`)
-    // console.log(app_yml_sytt_data)
+    console.log(`-------- 共 ${app_syttPhone.length} 个账号 --------`)
+    // console.log(app_syttPhone)
     console.log(
         `\n\n====== 脚本执行 - 北京时间(UTC+8)：${new Date(
             new Date().getTime() +
@@ -60,11 +60,11 @@ let uid;
 
     await wyy();
 
-    for (i = 0; i < app_yml_sytt_data.length; i++) {
+    for (i = 0; i < app_syttPhone.length; i++) {
         $.index = i + 1;
         console.log(`\n====== 开始【第 ${$.index} 个账号】======`)
-        // console.log(`这里是分割后:${app_yml_sytt_data}`);
-        data = app_yml_sytt_data[i].split('&');
+        // console.log(`这里是分割后:${app_syttPhone}`);
+        data = app_syttPhone[i].split('&');
         // console.log(`====== ${data}`)
         user = data[0]
         // console.log(`====user==== ${user}`)
