@@ -226,14 +226,6 @@
    "script": "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JS/hrzj.js"
   },
   {
-   "id": "xqz",
-   "name": "闲趣赚",
-   "keys": ["xqzck"],
-   "repo": "https://github.com/WinverLemon/Lemon/blob/main/JS/xqz.js",
-   "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/xqz.jpg", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/xqz.jpg"],
-   "script": "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JS/xqz.js"
-  },
-  {
    "id": "txstockV2",
    "name": "腾讯自选股V2",
    "keys": ["TxStockCookie"],
