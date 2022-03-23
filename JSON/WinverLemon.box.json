@@ -225,14 +225,6 @@
    "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/txstock.jpg", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/txstock.jpg"],
    "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/txstockV2.js"
   },
-  {
-   "id": "cfxbj",
-   "name": "顺丰速运+(小程序)-乘风寻宝记",
-   "keys": ["cfxbjck"],
-   "repo": "https://github.com/leafxcy/JavaScript/blob/main/cfxbj.js",
-   "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/cfxbj.jpg", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/cfxbj.jpg"],
-   "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/cfxbj.js"
-  },
   { 
    "id": "zq_speed_box",
    "name": "中青看点极速版-宝箱",
