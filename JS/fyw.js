@@ -65,7 +65,7 @@ function fywhq(timeout = 0) {
       
       let url = {
         url: 'https://api.fywa.com.cn/api/user/extract/get_accounts',
-        headers: JSON.parse(`{"Authorization":"${fywtoken}","oaid":"6f6c81f84e42283d2a18855cc26de2be","Client_Type":"android","versioncode":"121","version":"1.2.1","Model":"meizu 16sPro","Manufacturer":"meizu","Android-Version":"10","Host":"api.fywa.com.cn","Connection":"Keep-Alive","Accept-Encoding":"gzip","User-Agent":"okhttp/4.8."}`),
+        headers: JSON.parse(`{"Authorization":"${fywtoken}","oaid":"66E848288C5541C39151D2F6875FAB9A9da45fbf563595311b8cbd5cc9e72bad","Client_Type":"android","versioncode":"122","version":"1.2.2","Model":"OnePlus IN2020","Manufacturer":"OnePlus","Android-Version":"12","Host":"api.fywa.com.cn","Connection":"Keep-Alive","Accept-Encoding":"gzip","User-Agent":"okhttp/4.8."}`),
         
       }
       $.get(url, async (err, resp, data) => {
@@ -98,7 +98,7 @@ function fytq(timeout = 0) {
     
     let url = {
       url: 'https://api.fywa.com.cn/api/user/coin/receive',
-      headers: JSON.parse(`{"Authorization":"${fywtoken}","oaid":"6f6c81f84e42283d2a18855cc26de2be","Client_Type":"android","versioncode":"121","version":"1.2.1","Model":"meizu 16sPro","Manufacturer":"meizu","Android-Version":"10","Host":"api.fywa.com.cn","Connection":"Keep-Alive","Accept-Encoding":"gzip","User-Agent":"okhttp/4.8."}`),
+      headers: JSON.parse(`{"Authorization":"${fywtoken}","oaid":"66E848288C5541C39151D2F6875FAB9A9da45fbf563595311b8cbd5cc9e72bad","Client_Type":"android","versioncode":"122","version":"1.2.2","Model":"OnePlus IN2020","Manufacturer":"OnePlus","Android-Version":"12","Host":"api.fywa.com.cn","Connection":"Keep-Alive","Accept-Encoding":"gzip","User-Agent":"okhttp/4.8."}`),
       
     }
     $.get(url, async (err, resp, data) => {
@@ -127,7 +127,7 @@ function fywtx(timeout = 0) {
       
       let url = {
         url: 'https://api.fywa.com.cn/api/user/extract/apply',
-        headers: JSON.parse(`{"Authorization":" ${fywtoken}","oaid":"6f6c81f84e42283d2a18855cc26de2be","client_type":"android","versioncode":"121","version":"1.2.1","Model":"meizu 16sPro","Manufacturer":"meizu","Android-Version":"10","Content-Type":"application/json; charset=utf-8","Content-Length":"49","Host":"api.fywa.com.cn","Connection":" Keep-Alive","Accept-Encoding":"gzip","User-Agent":"okhttp/4.8.0"}`),
+        headers: JSON.parse(`{"Authorization":" ${fywtoken}","oaid":"66E848288C5541C39151D2F6875FAB9A9da45fbf563595311b8cbd5cc9e72bad","client_type":"android","versioncode":"122","version":"1.2.2","Model":"OnePlus IN2020","Manufacturer":"OnePlus","Android-Version":"12","Content-Type":"application/json; charset=utf-8","Content-Length":"49","Host":"api.fywa.com.cn","Connection":" Keep-Alive","Accept-Encoding":"gzip","User-Agent":"okhttp/4.8.0"}`),
         body : `{"applyExtractMoney":${txje},"extractAccountId":${fywtxid}}`
       }
       $.post(url, async (err, resp, data) => {
@@ -155,7 +155,7 @@ function fywqq(timeout = 0) {
     
     let url = {
       url: 'https://api.fywa.com.cn/api/task?taskId=10',
-      headers: JSON.parse(`{"Authorization":"${fywtoken}","oaid":"6f6c81f84e42283d2a18855cc26de2be","Client_Type":"android","versioncode":"121","version":"1.2.1","Model":"meizu 16sPro","Manufacturer":"meizu","Android-Version":"10","Host":"api.fywa.com.cn","Connection":"Keep-Alive","Accept-Encoding":"gzip","User-Agent":"okhttp/4.8."}`),
+      headers: JSON.parse(`{"Authorization":"${fywtoken}","oaid":"66E848288C5541C39151D2F6875FAB9A9da45fbf563595311b8cbd5cc9e72bad","Client_Type":"android","versioncode":"122","version":"1.2.2","Model":"OnePlus IN2020","Manufacturer":"OnePlus","Android-Version":"12","Host":"api.fywa.com.cn","Connection":"Keep-Alive","Accept-Encoding":"gzip","User-Agent":"okhttp/4.8."}`),
       
     }
     $.get(url, async (err, resp, data) => {
@@ -185,7 +185,7 @@ function fywgg1(timeout = 0) {
       let url = {
         url: 'https://incentive.8ziben.com/api/sdk/incentive/trade',
         headers: JSON.parse(`{"Content-Type":" application/x-www-form-urlencoded","Content-Length":" 996","User-Agent":" Dalvik/2.1.0 (Linux; U; Android 10; 16s Pro Build/QKQ1.191222.002)","Host":" incentive.8ziben.com","Connection":" Keep-Alive","Accept-Encoding":" gzip"}`),
-        body : `mdid=52fcb6f3-9213-439d-9b20-bbd2b0e25286&data=%7B%22zj_adID%22%3A%22J6371357270%22%2C%22ad_type%22%3A%22RewardVideo%22%2C%22zjpm%22%3A%22gdt%22%2C%22zjpm_id%22%3A%228072692066715477%22%2C%22ltimes%22%3A1646390219872%2C%22etimes%22%3A0%2C%22pstime%22%3A0%2C%22petime%22%3A0%2C%22vDuration%22%3A0%2C%22userID%22%3A%22${fywuid}%22%2C%22reward_amount%22%3A10%2C%22reward_name%22%3A%22%E5%88%9B%E8%A7%81%E6%BF%80%E5%8A%B1%E8%A7%86%E9%A2%91%22%2C%22extra%22%3A%22%7B%5C%22time%5C%22%3A%5C%221646390218663%5C%22%2C%5C%22taskId%5C%22%3A%5C%2210%5C%22%7D%22%2C%22event_links%22%3A%5B%7B%22event%22%3A%22onZjAdLoaded%22%2C%22message%22%3A1646390219872%2C%22times%22%3A1646390219872%7D%5D%7D&appName=%E6%94%BE%E7%BE%8A%E5%A8%83&appVer=1.2.1&sign=cfac2d720efcfd099463c79fd05c689c&token=token&zj_adID=J6371357270&vaid=335fg45fwe&aaid=a4315de6b6a54d0ab908868628db90ec&appPkgName=com.ainong.shepherdboy&appId=Z0409815622&xToken=&sdkVer=2.0&applicationId=com.ainong.shepherdboy&oaid=6f6c81f84e42283d2a18855cc26de2be`
+        body : `mdid=52fcb6f3-9213-439d-9b20-bbd2b0e25286&data=%7B%22zj_adID%22%3A%22J6371357270%22%2C%22ad_type%22%3A%22RewardVideo%22%2C%22zjpm%22%3A%22gdt%22%2C%22zjpm_id%22%3A%228072692066715477%22%2C%22ltimes%22%3A1646390219872%2C%22etimes%22%3A0%2C%22pstime%22%3A0%2C%22petime%22%3A0%2C%22vDuration%22%3A0%2C%22userID%22%3A%22${fywuid}%22%2C%22reward_amount%22%3A10%2C%22reward_name%22%3A%22%E5%88%9B%E8%A7%81%E6%BF%80%E5%8A%B1%E8%A7%86%E9%A2%91%22%2C%22extra%22%3A%22%7B%5C%22time%5C%22%3A%5C%221646390218663%5C%22%2C%5C%22taskId%5C%22%3A%5C%2210%5C%22%7D%22%2C%22event_links%22%3A%5B%7B%22event%22%3A%22onZjAdLoaded%22%2C%22message%22%3A1646390219872%2C%22times%22%3A1646390219872%7D%5D%7D&appName=%E6%94%BE%E7%BE%8A%E5%A8%83&appVer=1.2.2&sign=cfac2d720efcfd099463c79fd05c689c&token=token&zj_adID=J6371357270&vaid=335fg45fwe&aaid=a4315de6b6a54d0ab908868628db90ec&appPkgName=com.ainong.shepherdboy&appId=Z0409815622&xToken=&sdkVer=2.0&applicationId=com.ainong.shepherdboy&oaid=66E848288C5541C39151D2F6875FAB9A9da45fbf563595311b8cbd5cc9e72bad`
       }
       $.post(url, async (err, resp, data) => {
         try {
@@ -214,7 +214,7 @@ function fywgg1(timeout = 0) {
       
       let url = {
         url: `https://api.fywa.com.cn/api/cjad/app/callback?taskId=10&transid=${fywid}&pid=J6371357270`,
-        headers: JSON.parse(`{"Authorization":"${fywtoken}","oaid":"6f6c81f84e42283d2a18855cc26de2be","Client_Type":"android","versioncode":"121","version":"1.2.1","Model":"meizu 16sPro","Manufacturer":"meizu","Android-Version":"10","Host":"api.fywa.com.cn","Connection":"Keep-Alive","Accept-Encoding":"gzip","User-Agent":"okhttp/4.8."}`),
+        headers: JSON.parse(`{"Authorization":"${fywtoken}","oaid":"66E848288C5541C39151D2F6875FAB9A9da45fbf563595311b8cbd5cc9e72bad","Client_Type":"android","versioncode":"122","version":"1.2.2","Model":"OnePlus IN2020","Manufacturer":"OnePlus","Android-Version":"12","Host":"api.fywa.com.cn","Connection":"Keep-Alive","Accept-Encoding":"gzip","User-Agent":"okhttp/4.8."}`),
         
       }
       $.get(url, async (err, resp, data) => {
