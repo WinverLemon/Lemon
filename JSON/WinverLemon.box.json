@@ -139,8 +139,8 @@
   },
   {
    "id": "hyxs",
-   "name": "十堰头条",
-   "keys": ["hyxsurl,hyxshd"],
+   "name": "火云邪神",
+   "keys": ["hyxsurl","hyxshd"],
    "repo": "https://github.com/WinverLemon/Lemon/blob/main/JS/hyxs.js",
    "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/sytt.jpg", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/sytt.jpg"],
    "script": "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JS/hyxs.js"
