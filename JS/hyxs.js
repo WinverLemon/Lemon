@@ -1,4 +1,4 @@
-/*
+-/*
 20220424 tom
 
 扫码打开小程序获取ck  小程序进不去 自己想办法  能撸到多少算多少吧  
@@ -33,7 +33,7 @@ let hyxsurl = $.getdata('hyxsurl')
 let hyxshd = $.getdata('hyxshd')
 //let hyxsbody = $.getdata('hyxsbody')
 let b = Math.round(new Date().getTime() / 1000).toString();
-let DD = RT(50000, 57000)
+let DD = RT(100000, 157000)
 let tz = ($.getval('tz') || '1');
 let ibody = ''
 $.message = ''
