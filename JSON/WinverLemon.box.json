@@ -114,14 +114,6 @@
    "script": "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JS/gqsl.js"
   },
   {
-   "id": "jztt",
-   "name": "九章头条",
-   "keys": ["jzttToken"],
-   "repo": "https://github.com/leafxcy/JavaScript/blob/main/jztt.js",
-   "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/tom.png", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/tom.png"],
-   "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jztt.js"
-  },
-  {
    "id": "kkd",
    "name": "快看点",
    "keys": ["kkdheader", "kkdcookie","kkdsign", "kkdheader2", "kkdcookie2","kkdsign2", "kkdheader3", "kkdcookie3","kkdsign3", "kkdheader4", "kkdcookie4","kkdsign4", "kkdheader5", "kkdcookie5","kkdsign5", "kkdheader6", "kkdcookie6","kkdsign6"],
@@ -136,14 +128,6 @@
    "repo": "https://github.com/leafxcy/JavaScript/blob/main/58tc.js",
    "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/wbtc.jpg", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/wbtc.jpg"],
    "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/58tc.js"
-  },
-  {
-   "id": "hyxs",
-   "name": "火云邪神",
-   "keys": ["hyxshd"],
-   "repo": "https://github.com/WinverLemon/Lemon/blob/main/JS/hyxs.js",
-   "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/sytt.jpg", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/sytt.jpg"],
-   "script": "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JS/hyxs.js"
   },
   {
    "id": "txstockV2",
