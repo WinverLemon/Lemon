@@ -49,69 +49,10 @@
   {  
    "id": "gqsl",
    "name": "广汽三菱",
-   "keys": ["gqslheader", "gqslbody","gqslheader2", "gqslbody2","gqslheader3", "gqslbody3","gqslheader4", "gqslbody4","gqslheader5", "gqslbody5"],
-   "settings": 
-   [
-    {
-     "id": "gqslSuffix",
-     "name": "当前账号",
-     "val": "1",
-     "type": "number",
-     "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-    }, 
-    {
-     "id": "gqslCount",
-     "name": "账号个数",
-     "val": "1",
-     "type": "number",
-     "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-    }, 
-    {
-     "id": "gqslXH",
-     "name": "循环获取ck",
-     "val": "0",
-     "type": "number",
-     "desc": "0关闭，1打开，默认关闭"
-    }, 
-    {
-     "id": "gqslTXTX",
-     "name": "txtx",
-     "val": "0",
-     "type": "number",
-     "desc": "0关闭，1打开，默认关闭"
-    }, 
-    {
-     "id": "gqslSC",
-     "name": "sc",
-     "val": "0",
-     "type": "number",
-     "desc": "0关闭，1打开，默认关闭"
-    }, 
-    {
-     "id": "gqslnotifyttt",
-     "name": "推送控制",
-     "val": "1",
-     "type": "number",
-     "desc": "0关闭，1推送,默认12点以及23点推送"
-    }, 
-    {
-     "id": "gqslnotifyInterval",
-     "name": "通知控制",
-     "val": "2",
-     "type": "number",
-     "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
-    }, 
-    {
-     "id": "gqslMinutes",
-     "name": "推送-通知 分钟控制",
-     "val": "10",
-     "type": "number",
-     "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
-    }
-   ],
-   "repo": "https://github.com/WinverLemon/Lemon/blob/main/JS/gqsl.js",
-   "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/tom.png", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/tom.png"],
-   "script": "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JS/gqsl.js"
+   "keys": ["GQSLAuthorization"],
+   "repo": "https://github.com/xl2101200/-/blob/main/gqsl.js",
+   "icons": ["https://github.com/xl2101200/-/blob/main/tom.png", "https://github.com/xl2101200/-/blob/main/tom.png"],
+   "script": "https://raw.githubusercontent.com/xl2101200/-/main/gqsl.js"
   },
   {
    "id": "kkd",
@@ -125,17 +66,25 @@
    "id": "wbtc",
    "name": "58同城",
    "keys": ["wbtcCookie","wbtcUA"],
-   "repo": "https://github.com/leafxcy/JavaScript/blob/main/58tc.js",
+   "repo": "https://github.com/leafTheFish/DeathNote/blob/main/58tc.js",
    "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/wbtc.jpg", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/wbtc.jpg"],
-   "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/58tc.js"
+   "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/58tc.js"
   },
   {
    "id": "txstockV2",
    "name": "腾讯自选股V2",
    "keys": ["TxStockCookie"],
-   "repo": "https://github.com/leafxcy/JavaScript/blob/main/txstockV2.js",
+   "repo": "https://github.com/leafTheFish/DeathNote/blob/main/txstockV2.js",
    "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/txstock.jpg", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/txstock.jpg"],
-   "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/txstockV2.js"
+   "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/txstockV2.js"
+  },
+  {
+   "id": "jzyl",
+   "name": "健走有礼",
+   "keys": ["jzylCookie"],
+   "repo": "https://github.com/leafTheFish/DeathNote/blob/main/jzyl.js",
+   "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/txstock.jpg", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/txstock.jpg"],
+   "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/jzyl.js"
   },
   { 
    "id": "zq_speed_box",
