@@ -86,6 +86,14 @@
    "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/txstock.jpg", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/txstock.jpg"],
    "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/jzyl.js"
   },
+  {
+   "id": "xmly",
+   "name": "喜马拉雅",
+   "keys": ["yml_xmly_cookie"],
+   "repo": "https://github.com/yml2213/javascript/blob/master/xmly/xmly.js",
+   "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/xmly.jpg", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/xmly.jpg"],
+   "script": "https://raw.githubusercontent.com/yml2213/javascript/master/xmly/xmly.js"
+  },
   { 
    "id": "zq_speed_box",
    "name": "中青看点极速版-宝箱",
