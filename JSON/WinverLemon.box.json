@@ -89,7 +89,7 @@
   {
    "id": "xmly",
    "name": "喜马拉雅",
-   "keys": ["yml_xmly_cookie"],
+   "keys": ["yml_xmlyurl","yml_xmlyhd","yml_xmlybody"],
    "repo": "https://github.com/yml2213/javascript/blob/master/xmly/xmly.js",
    "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/xmly.jpg", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/xmly.jpg"],
    "script": "https://raw.githubusercontent.com/yml2213/javascript/master/xmly/xmly.js"
