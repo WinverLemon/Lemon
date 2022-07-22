@@ -94,6 +94,14 @@
    "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/xmly.jpg", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/xmly.jpg"],
    "script": "https://raw.githubusercontent.com/yml2213/javascript/master/xmly/xmly.js"
   },
+  {
+   "id": "liuliu",
+   "name": "遛遛它",
+   "keys": ["llcookie"],
+   "repo": "https://kireinasakura.coding.net/p/could/d/there/git/raw/master/liuliu.js",
+   "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/winverlemon.png", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/winverlemon.png"],
+   "script": "https://kireinasakura.coding.net/p/could/d/there/git/raw/master/liuliu.js"
+  },
   { 
    "id": "zq_speed_box",
    "name": "中青看点极速版-宝箱",
