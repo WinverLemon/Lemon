@@ -168,38 +168,6 @@
    "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/zqkd.png","https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/zqkd.png"],
    "script": "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JS/zq_speed/zq_speed_box.js"
   },
-  {
-   "id": "tyqh",
-   "name": "统一茄皇",
-   "keys": ["tybody"],
-   "repo": "https://raw.githubusercontent.com/LinYuanovo/scripts/main/tyqh.js",
-   "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/winverlemon.png", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/winverlemon.png"],
-   "script": "https://raw.githubusercontent.com/LinYuanovo/scripts/main/tyqh.js"
-  },
-  {
-   "id": "tyqs",
-   "name": "统一天气情书",
-   "keys": ["tqBody"],
-   "repo": "https://raw.githubusercontent.com/LinYuanovo/scripts/main/tyqs.js",
-   "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/winverlemon.png", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/winverlemon.png"],
-   "script": "https://raw.githubusercontent.com/LinYuanovo/scripts/main/tyqs.js"
-  },
-  {
-   "id": "tczs",
-   "name": "同程旅行种树",
-   "keys": ["tczs"],
-   "repo": "https://raw.githubusercontent.com/LinYuanovo/scripts/main/tczs.js",
-   "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/winverlemon.png", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/winverlemon.png"],
-   "script": "https://raw.githubusercontent.com/LinYuanovo/scripts/main/tczs.js"
-  },
-  {
-   "id": "dt",
-   "name": "读特",
-   "keys": ["dt"],
-   "repo": "https://raw.githubusercontent.com/LinYuanovo/scripts/main/dt.js",
-   "icons": ["https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/winverlemon.png", "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JPG/winverlemon.png"],
-   "script": "https://raw.githubusercontent.com/LinYuanovo/scripts/main/dt.js"
-  },
   { 
    "id": "zq_speed_qd",
    "name": "中青看点极速版-签到",
