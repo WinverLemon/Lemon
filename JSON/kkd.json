@@ -1,0 +1,57 @@
+{
+ "name": "快看点重写订阅",
+ "resource": "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JSON/kkd.json",
+ "mitmhost": ["api.yuncheapp.cn"],
+ "list": 
+  [
+   {
+    "match": "https:\/\/api\.yuncheapp\.cn\/pearl-incentive\/api\/v1\/task\/intervalAward\/receive",
+    "stage": "res",
+    "target": "http://script.frp.aiuyo.com:8680/scripts/kkd_ck.js",
+    "enable": true, 
+    "note": "快看点"
+   },
+   {
+    "match": "https://api.yuncheapp.cn/pearl-incentive/api/v1/task/signIn/*",
+    "stage": "res",
+    "target": "http://script.frp.aiuyo.com:8680/scripts/kkd_ck.js",
+    "enable": true, 
+    "note": "快看点"
+   },
+   {
+    "match": "api.yuncheapp.cn/pearl-incentive/api/v1/drinkWater/start",
+    "stage": "res",
+    "target": "http://script.frp.aiuyo.com:8680/scripts/kkd_ck.js",
+    "enable": true, 
+    "note": "快看点"
+   },
+   {
+    "match": "https://api.yuncheapp.cn/pearl-incentive/api/v1/bank/home",
+    "stage": "res",
+    "target": "http://script.frp.aiuyo.com:8680/scripts/kkd_ck.js",
+    "enable": true, 
+    "note": "快看点"
+   },
+   {
+    "match": "https://api.yuncheapp.cn/pearl-incentive/api/v1/lotteryTable/homeV2",
+    "stage": "res",
+    "target": "http://script.frp.aiuyo.com:8680/scripts/kkd_ck.js",
+    "enable": true, 
+    "note": "快看点"
+   },
+   {
+    "match": "https://api.yuncheapp.cn/pearl-incentive/api/v1/giftRain/home",
+    "stage": "res",
+    "target": "http://script.frp.aiuyo.com:8680/scripts/kkd_ck.js",
+    "enable": true, 
+    "note": "快看点"
+   },
+   {
+    "match": "https://api.yuncheapp.cn/pearl-incentive/api/v1/bank/account/exchange",
+    "stage": "res",
+    "target": "http://script.frp.aiuyo.com:8680/scripts/kkd_ck.js",
+    "enable": true, 
+    "note": "快看点"
+   }
+  ]
+}
