@@ -1,6 +1,6 @@
 {
  "name": "快看点重写订阅",
- "resource": "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JSON/kkd.json",
+ "resource": "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JSON/David-kkd.json",
  "mitmhost": ["api.yuncheapp.cn"],
  "list": 
   [
