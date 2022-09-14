@@ -9,7 +9,7 @@
     "stage": "res",
     "target": "http://script.frp.aiuyo.com:8680/scripts/qqyd.js",
     "enable": true, 
-    "note": "QQ阅读1"
+    "note": "QQ阅读"
    }
   ]
 }
