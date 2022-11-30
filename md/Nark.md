@@ -32,7 +32,7 @@ docker run  -d \
 --name Nark \
 --privileged=true \
 --restart always \
-nolanhzy/Nark:latest
+nolanhzy/nark:latest
 
 
 ```
