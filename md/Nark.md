@@ -28,10 +28,11 @@ docker run  -d \
 -v  /root/Nark/logfile:/app/logfile \
 -v  /root/Nark/Config:/app/Config \
 -p 5701:80 \
+-e TZ=Asia/Shanghai \
 --name Nark \
 --privileged=true \
 --restart always \
-nolanhzy/nark:latest
+nolanhzy/Nark:latest
 
 
 ```
@@ -107,10 +108,10 @@ nolanhzy/nark:latest
 
 
 
-~~nark与授权中心交互必须知道ip。启动的时候会注册ip，如果你挂了代理，记得给n.nnnolanark.xyz设置直连 更换ip重启nark即可:point_down:~~
+~~Nark与授权中心交互必须知道ip。启动的时候会注册ip，如果你挂了代理，记得给n.nnnolaNark.xyz设置直连 更换ip重启Nark即可:point_down:~~
 
 ```bash
-docker exec -it nark echo "104.21.62.86 n.nnnolanark.xyz">>/etc/hosts
+docker exec -it Nark echo "104.21.62.86 n.nnnolaNark.xyz">>/etc/hosts
 ```
 
 :::
@@ -137,5 +138,5 @@ docker exec -it nark echo "104.21.62.86 n.nnnolanark.xyz">>/etc/hosts
 修改了`Config.json`或者更新了容器，都需要重启docker
 
 ```bash
-docker restart nark
+docker restart Nark
 ```
