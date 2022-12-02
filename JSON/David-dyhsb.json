@@ -1,7 +1,7 @@
 {
  "name": "抖音火山版重写订阅",
  "resource": "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JSON/David-dyhsb.json",
- "mitmhost": ["*.huoshan.com,*.snssdk.com,*.zijieapi.com"],
+ "mitmhost": ["*.huoshan.com","*.snssdk.com","*.zijieapi.com"],
  "list": 
   [
    {
