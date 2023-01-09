@@ -1,0 +1,15 @@
+{
+ "name": "伊利牛奶重写订阅",
+ "resource": "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JSON/David-ylnn.json",
+ "mitmhost": ["wx-camp-qqx-superbrain.mscampapi.digitalyili.com"],
+ "list": 
+  [
+   {
+    "match": "/user/login",
+    "stage": "res",
+    "target": "http://script.frp.aiuyo.com/scripts/ylnn.js",
+    "enable": true, 
+    "note": "伊利牛奶"
+   }
+  ]
+}
