@@ -2,7 +2,7 @@
 # Cloud Configuration
 # 酷安@阿巴酱(Petit Abba)
 # 所有路径都已验证(√)
-Version="202207031613"
+Version="202301111606"
 
 #绝对路径
 if [[ -d /data/adb/modules/Third_Party_Redirect ]]; then
