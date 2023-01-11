@@ -1,4 +1,4 @@
-#!/system/bin/sh
+0#!/system/bin/sh
 # Cloud Configuration
 # 酷安@阿巴酱(Petit Abba)
 # 所有路径都已验证(√)
@@ -142,9 +142,10 @@ Download 'QQ已发送文件' 'Android/data/com.tencent.mobileqq/cache/share'
 Download '微信' 'Android/data/com.tencent.mm/MicroMsg/Download'
 Download '阿里云盘' 'Android/data/com.alicloud.databox/sdcard/AliYunPan'
 Download '百度网盘' 'Android/data/com.baidu.netdisk/sdcard/BaiduNetdisk'
-Download '.TG' 'Android/data/org.telegram.messenger/sdcard/Telegram'
+Download '.TG' 'Android/data/org.telegram.messenger/files/Telegram'
 Download '酷安' 'Android/data/com.coolapk.market/files/Download'
 Download 'IDM' 'Android/data/idm.internet.download.manager.plus/sdcard/IDMP/General'
+Download '夸克' 'Android/data/com.quark.browser/sdcard/Quark/Download'
 
 
 wjj="/data/media/0/${path}/第三方应用下载目录/*
