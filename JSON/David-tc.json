@@ -1,0 +1,22 @@
+{
+ "name": "图虫重写订阅",
+ "resource": "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JSON/David-tc.json",
+ "mitmhost": ["tuchong.com","api.tuchong.com"],
+ "list": 
+  [
+   {
+    "match": "https://tuchong.com/.+v2/status",
+    "stage": "res",
+    "target": "http://script.frp.zhoudedi.top:60080/scripts/tc.js",
+    "enable": true, 
+    "note": "图虫"
+   },
+   {
+    "match": "https://api.tuchong.com/share/recall",
+    "stage": "res",
+    "target": "http://script.frp.zhoudedi.top:60080/scripts/tc.js",
+    "enable": true, 
+    "note": "图虫"
+   }
+  ]
+}
