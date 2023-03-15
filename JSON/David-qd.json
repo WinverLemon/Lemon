@@ -1,27 +1,20 @@
 {
  "name": "签到集合重写订阅",
  "resource": "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JSON/David-qd.json",
- "mitmhost": ["*.hdpyqd.com","*.ulikecam.com","*.aliyundrive.com"],
+ "mitmhost": ["*.aliyundrive.com","gms.ihaoqu.com"],
  "list": 
   [
    {
-    "match": "ajax/rldk_h.jsp.cmd=sign",
-    "stage": "res",
-    "target": "http://script.frp.zhoudedi.top:60080/scripts/qd.js",
-    "enable": true, 
-    "note": "签到集合"
-   },
-   {
-    "match": "lv/v1/game/receive_credits",
-    "stage": "res",
-    "target": "http://script.frp.zhoudedi.top:60080/scripts/qd.js",
-    "enable": true, 
-    "note": "签到集合"
-   },
-   {
     "match": "^https:\/\/auth.aliyundrive.com\/v2\/account\/token",
     "stage": "res",
-    "target": "http://script.frp.zhoudedi.top:60080/scripts/qd.js",
+    "target": "http://script.david2023.top/scripts/qd.js",
+    "enable": true, 
+    "note": "签到集合"
+   },
+   {
+    "match": "gmswx/app.php",
+    "stage": "res",
+    "target": "http://script.david2023.top/scripts/qd.js",
     "enable": true, 
     "note": "签到集合"
    }

@@ -7,14 +7,14 @@
    {
     "match": "luckycat/aweme/v1/task/sign_in/detail?",
     "stage": "res",
-    "target": "http://script.frp.zhoudedi.top:60080/scripts/dyjsb.js",
+    "target": "http://script.david2023.top/scripts/dyjsb.js",
     "enable": true, 
     "note": "抖音极速版"
    },
    {
     "match": "luckycat/aweme/v1/task/done/(read|treasure_task|excitation_ad_treasure_box|excitation_ad)?",
     "stage": "res",
-    "target": "http://script.frp.zhoudedi.top:60080/scripts/dyjsb.js",
+    "target": "http://script.david2023.top/scripts/dyjsb.js",
     "enable": true, 
     "note": "抖音极速版"
    }

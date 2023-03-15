@@ -7,7 +7,7 @@
    {
     "match": "activity/pkg11955/initV4",
     "stage": "res",
-    "target": "http://script.frp.zhoudedi.top:60080/scripts/qqyd.js",
+    "target": "http://script.david2023.top/scripts/qqyd.js",
     "enable": true, 
     "note": "QQ阅读"
    }
