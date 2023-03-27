@@ -104,20 +104,6 @@ nolanhzy/nark:latest
   </CodeGroupItem>
 </CodeGroup>
 
-::: tip 
-
-
-
-~~Nark与授权中心交互必须知道ip。启动的时候会注册ip，如果你挂了代理，记得给n.nnnolaNark.xyz设置直连 更换ip重启Nark即可:point_down:~~
-
-```bash
-docker exec -it Nark echo "104.21.62.86 n.nnnolaNark.xyz">>/etc/hosts
-```
-
-:::
-
-
-
 ::: details 点击查看配置目录结构
 
 ```
@@ -129,10 +115,6 @@ docker exec -it Nark echo "104.21.62.86 n.nnnolaNark.xyz">>/etc/hosts
 │
 
 ```
-
-:::
-
-
 
 ::: warning
 修改了`Config.json`或者更新了容器，都需要重启docker
