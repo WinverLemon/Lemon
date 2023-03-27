@@ -24,9 +24,9 @@ cd /root/Nark && mkdir -p logfile
 cd /root/Nark
 
 # 准备拉取启动容器
-docker run  -d \
--v  /root/Nark/logfile:/app/logfile \
--v  /root/Nark/Config:/app/Config \
+docker run -d \
+-v /root/Nark/logfile:/app/logfile \
+-v /root/Nark/Config:/app/Config \
 -p 5701:80 \
 -e TZ=Asia/Shanghai \
 --name Nark \
@@ -34,6 +34,15 @@ docker run  -d \
 --restart always \
 nolanhzy/nark:latest
 
+# 更新镜像
+docker run -d \
+--name watchtower \
+--restart always \
+-e TZ=Asia/Shanghai \
+-v /var/run/docker.sock:/var/run/docker.sock \
+containrrr/watchtower \
+--cleanup
+-s "0 0 */12 * * *"
 
 ```
 
