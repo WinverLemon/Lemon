@@ -98,7 +98,7 @@
 			 url: 'http://ypapp.cnnb.com.cn/yongpai-user/api/login2/local?username='+ck[0]+'&password='+ck[1]+'&deviceId='+did+'&globalDatetime='+tt+'&sign='+sg,
 			 headers: {
 				 'Host': 'ypapp.cnnb.com.cn',
-				 'User-Agent':'okhttp/3.10.0'
+				 'User-Agent':'PLYongPaiProject/10.0.3 (iPhone; iOS 14.7.1; Scale/2.00)'
 			 },
 			 
 		 };
