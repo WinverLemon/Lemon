@@ -133,11 +133,11 @@ var config = {
   method: 'post',
   url: 'https://kzsv.cnnb.com.cn/Server/ypfarmapi/?action=client_login',
   headers: { 
-    'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7', 
-    'Content-Length': '383', 
+    'Accept-Language': 'zh-cn', 
+    'Content-Length': '395', 
     'Host': 'kzsv.cnnb.com.cn', 
-    'User-Agent': 'Mozilla/5.0 (Linux; Android 12; 2201122C Build/SKQ1.211006.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Mobile Safari/537.36 agentweb/4.0.2  UCBrowser/11.6.4.950 yongpai', 
-    'Cookie': 'acw_tc=0b32807a16774027953937453eca348c9c6c267e6a00ca89af5b3a8b3e69a3', 
+    'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 yongpai/10.0.3', 
+    'Cookie': 'acw_tc=0b32807a16822406186695585eca3907631848cbf2d5051526f12fc8eb7bf6', 
     'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundary'+makeid(), 
     ...data.getHeaders()
   },
@@ -179,11 +179,11 @@ var config = {
   method: 'post',
   url: 'https://kzsv.cnnb.com.cn/Server/ypfarmapi/?action=client_interactive',
   headers: { 
-    'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7', 
+    'Accept-Language': 'zh-cn', 
     'Content-Length': '236', 
     'Host': 'kzsv.cnnb.com.cn', 
-    'User-Agent': 'Mozilla/5.0 (Linux; Android 12; 2201122C Build/SKQ1.211006.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Mobile Safari/537.36 agentweb/4.0.2  UCBrowser/11.6.4.950 yongpai', 
-    'Cookie': 'acw_tc=0b32807a16774027953937453eca348c9c6c267e6a00ca89af5b3a8b3e69a3', 
+    'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 yongpai/10.0.3', 
+    'Cookie': 'acw_tc=0b32807a16822406186695585eca3907631848cbf2d5051526f12fc8eb7bf6', 
     'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundary'+makeid(), 
     ...data.getHeaders()
   },
@@ -218,11 +218,11 @@ var config = {
   method: 'post',
   url: 'https://kzsv.cnnb.com.cn/Server/ypfarmapi/?action=client_operation',
   headers: { 
-    'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7', 
+    'Accept-Language': 'zh-cn', 
     'Content-Length': '346', 
     'Host': 'kzsv.cnnb.com.cn', 
-    'User-Agent': 'Mozilla/5.0 (Linux; Android 12; 2201122C Build/SKQ1.211006.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Mobile Safari/537.36 agentweb/4.0.2  UCBrowser/11.6.4.950 yongpai', 
-    'Cookie': 'acw_tc=0b32807a16774027953937453eca348c9c6c267e6a00ca89af5b3a8b3e69a3', 
+    'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 yongpai/10.0.3', 
+    'Cookie': 'acw_tc=0b32807a16822406186695585eca3907631848cbf2d5051526f12fc8eb7bf6', 
     'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundary'+makeid(), 
     ...data.getHeaders()
   },
