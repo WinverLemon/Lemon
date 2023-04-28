@@ -1,7 +1,7 @@
 {
  "name": "签到集合重写订阅",
  "resource": "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JSON/David-qd.json",
- "mitmhost": ["*.aliyundrive.com","gms.ihaoqu.com"],
+ "mitmhost": ["*.aliyundrive.com","gms.ihaoqu.com","m.reduxingke.com"],
  "list": 
   [
    {
@@ -13,6 +13,13 @@
    },
    {
     "match": "gmswx/app.php",
+    "stage": "res",
+    "target": "http://script.david2023.top/scripts/qd.js",
+    "enable": true, 
+    "note": "签到集合"
+   },
+   {
+    "match": "api/user",
     "stage": "res",
     "target": "http://script.david2023.top/scripts/qd.js",
     "enable": true, 
