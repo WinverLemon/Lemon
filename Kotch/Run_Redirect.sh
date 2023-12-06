@@ -146,6 +146,7 @@ Download '.TG' 'Android/data/org.telegram.messenger/files/Telegram'
 Download '酷安' 'Android/data/com.coolapk.market/files/Download'
 Download 'IDM' 'Android/data/idm.internet.download.manager.plus/sdcard/IDMP/General'
 Download '夸克' 'Android/data/com.quark.browser/sdcard/Quark/Download'
+Download '115网盘' '/storage/emulated/0/Android/data/com.ylmf.androidclient/sdcard/115yun/download'
 
 
 wjj="/data/media/0/${path}/第三方应用下载目录/*
