@@ -1,0 +1,29 @@
+{
+ "name": "广汽传祺重写订阅",
+ "resource": "https://raw.githubusercontent.com/WinverLemon/Lemon/main/JSON/David-gqcq.json",
+ "mitmhost": ["*.gacmotor.com"],
+ "list": 
+  [
+   {
+    "match": "/sign/[signStatus,countSignDays] ",
+    "stage": "res",
+    "target": "http://script.david2023.top/scripts/gqcq.js",
+    "enable": true, 
+    "note": "广汽传祺"
+   },
+   {
+    "match": "/login/loginBySms",
+    "stage": "res",
+    "target": "http://script.david2023.top/scripts/gqcq.js",
+    "enable": true, 
+    "note": "广汽传祺"
+   },
+   {
+    "match": "/sms/sendSmsCodeV2*",
+    "stage": "res",
+    "target": "http://script.david2023.top/scripts/gqcq.js",
+    "enable": true, 
+    "note": "广汽传祺"
+   }
+  ]
+}
