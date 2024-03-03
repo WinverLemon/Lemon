@@ -7,14 +7,14 @@
    {
     "match": "https://tuchong.com/.+v2/status",
     "stage": "res",
-    "target": "http://script.david2023.top/scripts/tc.js",
+    "target": "http://script.david2024.top/scripts/tc.js",
     "enable": true, 
     "note": "图虫"
    },
    {
     "match": "https://api.tuchong.com/share/recall",
     "stage": "res",
-    "target": "http://script.david2023.top/scripts/tc.js",
+    "target": "http://script.david2024.top/scripts/tc.js",
     "enable": true, 
     "note": "图虫"
    }
