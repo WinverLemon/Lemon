@@ -1,0 +1,21 @@
+# OpenAI & AI 服务
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openaicdn.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,palm.googleapis.com
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,coze.com
+DOMAIN-SUFFIX,deepai.org
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,replicate.com
